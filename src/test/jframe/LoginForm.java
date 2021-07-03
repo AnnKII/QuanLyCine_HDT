@@ -106,7 +106,7 @@ public class LoginForm extends javax.swing.JFrame {
         
         if(username.equals(user.getUsername()) && password.equals(user.getPassword())){
             JOptionPane.showMessageDialog(null, "Login Success");
-            MainFrame f = new MainFrame(this.user);
+            MainFrame_2 f = new MainFrame_2(this.user);
             f.pack();
             f.setLocationRelativeTo(null);
             f.setVisible(true);
